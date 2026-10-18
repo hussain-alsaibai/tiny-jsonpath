@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tiny-jsonpath"
+version = "0.1.0"
+description = "RFC 9535 (JSONPath 1.0) parser and evaluator for Python. Zero dependencies."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "OpenClaw", email = "hussain.alsaibai@gmail.com"},
+]
+keywords = ["jsonpath", "json", "parser", "query", "rfc9535"]
+
+[project.urls]
+Homepage = "https://github.com/hussain-alsaibai/tiny-jsonpath"
+
+[tool.setuptools]
+py-modules = ["tiny_jsonpath"]
+
+[tool.setuptools.package-data]
+"" = ["llms.txt", "README.md", "LICENSE"]
