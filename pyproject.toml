@@ -21,4 +21,4 @@ Homepage = "https://github.com/hussain-alsaibai/tiny-jsonpath"
 py-modules = ["tiny_jsonpath"]
 
 [tool.setuptools.package-data]
-"" = ["llms.txt", "README.md", "LICENSE"]
+"*" = ["llms.txt", "README.md", "LICENSE"]
